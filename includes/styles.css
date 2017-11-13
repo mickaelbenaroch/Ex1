@@ -1,0 +1,219 @@
+/*
+ *for the all page, cancel the default margin and padding of the browser.
+ */
+*{
+	padding:0;
+	margin: 0;
+}
+
+/*
+ *header css 
+*/
+header{
+	width:100%;
+	height: 62px;
+	background-color: #1b1e26;
+}
+header a{
+	text-decoration: none;
+}
+.logoSection{
+	background: url(../images/mylogo.png) no-repeat;
+	background-size: 80px 62px;
+	width:295px;
+	height:62px;
+	margin-left:70px;
+	padding-top: 1.5px;
+	padding-left: 1.5px;
+	font-size: 24px;
+}
+#firstNameInLogo{
+	font-family:"Courier New";
+	font-weight: bold;
+	font-style: italic;
+	color:white;
+	margin-left:70px;
+}
+#lastNameInLogo{
+	font-family:"Palatino Linotype";
+	font-weight: bold;
+	font-style: italic;
+	color:white;
+}
+
+/*
+ * main css.
+ */
+
+#nav{
+	padding-top:8px;
+	padding-bottom:8px;
+	width: 800px;
+	height:40px;
+	font-size:30px;
+}
+nav a:hover { 
+    color: 	#E0E0E0;
+}
+.navLink{
+	text-decoration: none;
+	color:#8e959c;
+	font-family:"Impact";
+}
+nav a:hover { 
+    color: 	#E0E0E0;
+}
+.navLink1{
+	padding-left:70px;
+}
+.navLink2{
+	padding-left:80px;
+}
+.navLink3{
+	padding-left:80px;
+}
+
+
+
+.bigImageSection{
+	background: url("../images/mainImg.png") no-repeat;
+	background-size: 100% 465px;
+	height:465px;
+	width: 100%;
+}
+
+.myName{
+	height:80px;
+	font-size: 36px;
+	color:#8e959c;
+	margin-left:70px;
+	margin-top:34px;
+}
+
+.postRectangle{
+	margin-left: 70px;
+	height:300px;
+	width:350px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9dbdf;
+	box-shadow: 0 5px 5px -5px #333;
+	border-radius: 5px;
+}
+.postImage{
+	width:320px;
+	height: :180px;
+	display:block;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom:13px;
+   
+}
+.iconImage{
+	width: 53px;
+	height:53px;
+	padding-left:15px;
+	padding-top:13px;
+	display:inline;
+}
+.postParagraph{
+	position:absolute;
+	margin-top:13px;
+	display:inline-block;
+	margin-left:10px;
+}
+#firstSlogan{
+	padding-top:13px;
+	padding-left:12px;
+	color:#454e5c;
+	font-size:16px;
+	font-family:Arial;
+}
+#secondSlogan{
+	padding-left:12px;
+	color:#8e959c;
+	font-size:14px;
+	font-family:Arial;
+	
+}
+.bottomSection
+{
+	height: 155px;
+	width:1140px;
+	border-top: 5px solid;
+	border-color:#e7e7e7; 
+	margin-top:70px;
+	margin-left:70px;
+}
+.circlePic{
+	width:82px;
+	height:82px;
+	border-radius:100px;
+	padding-left:8px;
+	padding-top:35px;
+}
+.bottomParagraph{
+	position:absolute;
+	margin-top:35px;
+	display:inline-block;
+	margin-left:25px;
+}
+.date{
+	color:#abb1bb;
+	font-size:14px;
+	font-family:"Times New Roman";
+	position:absolute;
+	margin-bottom:16px;
+}
+.mySentance{
+	color:#55606e;
+	font-size:16px;
+	font-family:"Times New Roman";	
+}
+
+/*
+ * footer css
+ */
+
+#footerBlackSection{
+	height:290px;
+	background-color:#24272e;
+}
+.mySkills{
+	color:#ffffff;
+	margin-left:70px;
+	font-size:30px;
+	font-family:"Times New Roman";
+	padding-top:40px;
+	padding-bottom: 14px;
+}
+.skills{
+	color:#8e959c;
+	margin-left:70px;
+	font-size:30px;
+	margin-bottom:-4px;
+}
+#subNav{
+	height:90px;
+	margin-left:75px;
+	margin-top:25px;
+}
+.navSubLink1{
+	color:#333333;
+	font-size:24px;
+	font-family:"Times New Roman";
+}
+.navSubLink2{
+	color:#333333;
+	padding-left:70px;
+	font-size:24px;
+	font-family:"Times New Roman";
+}
+.allRight{
+	display:inline;
+	color:#333333;
+	padding-left:70px;
+	font-size:24px;
+	font-family:"Times New Roman";
+}
+
