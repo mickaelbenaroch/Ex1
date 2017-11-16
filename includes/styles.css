@@ -10,7 +10,7 @@
  *header css 
 */
 header{
-	width:100%;
+	width:1280px;
 	height: 62px;
 	background-color: #1b1e26;
 }
@@ -79,7 +79,7 @@ nav a:hover {
 	background: url("../images/mainImg.png") no-repeat;
 	background-size: 100% 465px;
 	height:465px;
-	width: 100%;
+	width: 1280px;
 }
 
 .myName{
@@ -178,6 +178,7 @@ nav a:hover {
 #footerBlackSection{
 	height:290px;
 	background-color:#24272e;
+	width:1280px;
 }
 .mySkills{
 	color:#ffffff;
